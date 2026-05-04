@@ -194,15 +194,122 @@ logicalNOT = [
   (2, 35), (3, 35), (2, 36), (3, 36),
 ]
 
+AND_000=[
+
+]
+
+AND_100=[
+#Signal
+  (25, 94), (25, 95), (26, 94), (26, 95),
+  (25, 85), (26, 85), (27, 85), (24, 84), (28, 84), (23, 83), (29, 83),
+  (23, 82), (29, 82), (26, 81), (24, 80), (28, 80), (25, 79), (26, 79), (27, 79), (26, 78),
+  (23, 75), (24, 75), (25, 75), (23, 74), (24, 74), (25, 74), (22, 73), (26, 73),
+  (21, 71), (22, 71), (26, 71), (27, 71),
+  (23, 60), (24, 60), (23, 61), (24, 61),
+
+  #Input A
+  (9, 16), (9, 17), (10, 16), (10, 17),
+  (9, 26), (10, 26), (11, 26), (8, 27), (12, 27), (7, 28), (13, 28),
+  (7, 29), (13, 29), (10, 30), (8, 31), (12, 31), (9, 32), (10, 32), (11, 32), (10, 33),
+  (7, 36), (8, 36), (9, 36), (7, 37), (8, 37), (9, 37), (6, 38), (10, 38),
+  (5, 40), (6, 40), (10, 40), (11, 40),
+  (7, 50), (8, 50), (7, 51), (8, 51),
+
+  #Temporary blocker for input A
+  (17, 41), (18, 41), (17, 42), (19, 42),  (19, 43),  (19, 44),  (20, 44),
+
+  #Input B
+(24, 1), (24, 2), (25, 1), (25, 2),
+(24, 11), (25, 11), (26, 11), (23, 12), (27, 12), (22, 13), (28, 13),
+(22, 14), (28, 14), (25, 15), (23, 16), (27, 16), (24, 17), (25, 17), (26, 17), (25, 18),
+(22, 21), (23, 21), (24, 21), (22, 22), (23, 22), (24, 22), (21, 23), (25, 23),
+(20, 25), (21, 25), (25, 25), (26, 25),
+(22, 35), (23, 35), (22, 36), (23, 36),
+
+  #Permanent Blocker
+  (87, 14), (87, 15), 
+  (88, 13), (88, 15), 
+  (89, 13), 
+  (90, 12), (90, 13)
+]
+
+AND_010=[
+
+]
+
+AND_111=[
+
+]
+
+OR_000=[
+
+]
+
+OR_101=[
+  
+]
+
+OR_011=[
+  
+]
+
+OR_111=[
+  
+]
+
+#Done
+NOT_10=[
+  #right gosper gun
+  (5, 94), (5, 95), (6, 94), (6, 95),
+  (5, 85), (6, 85), (7, 85), (4, 84), (8, 84), (3, 83), (9, 83),
+  (3, 82), (9, 82), (6, 81), (4, 80), (8, 80), (5, 79), (6, 79), (7, 79), (6, 78),
+  (3, 75), (4, 75), (5, 75), (3, 74), (4, 74), (5, 74), (2, 73), (6, 73),
+  (1, 71), (2, 71), (6, 71), (7, 71),
+  (3, 60), (4, 60), (3, 61), (4, 61),
+
+  (4, 1), (4, 2), (5, 1), (5, 2),
+  (4, 11), (5, 11), (6, 11), (3, 12), (7, 12), (2, 13), (8, 13),
+  (2, 14), (8, 14), (5, 15), (3, 16), (7, 16), (4, 17), (5, 17), (6, 17), (5, 18),
+  (2, 21), (3, 21), (4, 21), (2, 22), (3, 22), (4, 22), (1, 23), (5, 23),
+  (0, 25), (1, 25), (5, 25), (6, 25),
+  (2, 35), (3, 35), (2, 36), (3, 36),
+]
+
+NOT_01=[
+  #right gosper gun
+  (5, 94), (5, 95), (6, 94), (6, 95),
+  (5, 85), (6, 85), (7, 85), (4, 84), (8, 84), (3, 83), (9, 83),
+  (3, 82), (9, 82), (6, 81), (4, 80), (8, 80), (5, 79), (6, 79), (7, 79), (6, 78),
+  (3, 75), (4, 75), (5, 75), (3, 74), (4, 74), (5, 74), (2, 73), (6, 73),
+  (1, 71), (2, 71), (6, 71), (7, 71),
+  (3, 60), (4, 60), (3, 61), (4, 61),
+
+  (4, 1), (4, 2), (5, 1), (5, 2),
+  (4, 11), (5, 11), (6, 11), (3, 12), (7, 12), (2, 13), (8, 13),
+  (2, 14), (8, 14), (5, 15), (3, 16), (7, 16), (4, 17), (5, 17), (6, 17), (5, 18),
+  (2, 21), (3, 21), (4, 21), (2, 22), (3, 22), (4, 22), (1, 23), (5, 23),
+  (0, 25), (1, 25), (5, 25), (6, 25),
+  (2, 35), (3, 35), (2, 36), (3, 36),
+
+  #Temporary blocker for input A
+  (18, 32), (19, 32), (18, 33), (20, 33), (20, 34), (20, 35), (21, 35)
+]
 
 presetPatterns = {
   "Gosper": gosperGliderGunPattern,
   "Glider": gliderPattern,
   "Glider+Eater": gliderEaterPattern,
   "Pulsar": pulsarPattern,
-  "AND": logicalAND,
-  "OR": logicalOR,
-  "NOT": logicalNOT,
+  "AND: |0|0|0|": AND_000,
+  "AND: |1|0|0|": AND_100,
+  "AND: |0|1|0|": AND_010,
+  "AND: |1|1|1|": AND_111,
+  "OR: |0|0|0|": OR_000,
+  "OR: |1|0|1|": OR_101,
+  "OR: |0|1|1|": OR_011,
+  "OR: |1|1|1|": OR_111,
+  "NOT: |1|0|": NOT_10,
+  "NOT: |0|1|": NOT_01,
 }
 
 def lifeStep(grid):
@@ -262,15 +369,19 @@ class GameOfLifeApp:
     self.stepButton = self._makeButton([0.80, 0.75, 0.1, 0.055], "Step", self.stepOnce)
     self.clearButton = self._makeButton([0.80, 0.68, 0.1, 0.055], "Clear", self.clearGrid)
     self.randomButton = self._makeButton([0.80, 0.61, 0.1, 0.055], "Random", self.randomizeGrid)
-    self.gosperButton = self._makeButton([0.80, 0.50, 0.1, 0.055], "Gosper", self.loadGosper)
-    self.gliderButton = self._makeButton([0.80, 0.43, 0.1, 0.055], "Glider", self.loadGlider)
-    self.gliderEaterButton = self._makeButton([0.80, 0.36, 0.1, 0.055], "Glider+Eater", self.loadGliderEater)
-    self.pulsarButton = self._makeButton([0.80, 0.29, 0.1, 0.055], "Pulsar", self.loadPulsar)
-    self.rulesButton = self._makeButton([0.80, 0.18, 0.1, 0.055], "Rules", self.showRules)
 
-    self.ANDbutton = self._makeButton([0.68, 0.50, 0.1, 0.055], "AND", self.loadAND)
-    self.ORButton = self._makeButton([0.68, 0.43, 0.1, 0.055], "OR", self.loadOR)
-    self.NOTEaterButton = self._makeButton([0.68, 0.36, 0.1, 0.055], "NOT", self.loadNOT)
+    self.gosperButton = self._makeButton([0.80, 0.50, 0.1, 0.055], "OR: |0|0|0|", self.loadGosper)
+    self.gliderButton = self._makeButton([0.80, 0.43, 0.1, 0.055], "OR: |1|0|1|", self.loadGlider)
+    self.gliderEaterButton = self._makeButton([0.80, 0.36, 0.1, 0.055], "OR: |0|1|1|", self.loadGliderEater)
+    self.pulsarButton = self._makeButton([0.80, 0.29, 0.1, 0.055], "OR: |1|1|1|", self.loadPulsar)
+
+    self.NOT01Button = self._makeButton([0.80, 0.22, 0.1, 0.055], "NOT: |1|0|", self.loadNOT10)
+    self.NOT10Button = self._makeButton([0.68, 0.22, 0.1, 0.055], "NOT: |0|1|", self.loadNOT01)
+
+    self.AND000button = self._makeButton([0.68, 0.50, 0.1, 0.055], "AND: |0|0|0|", self.loadAND000)
+    self.AND100Button = self._makeButton([0.68, 0.43, 0.1, 0.055], "AND: |1|0|0|", self.loadAND100)
+    self.AND010Button = self._makeButton([0.68, 0.36, 0.1, 0.055], "AND: |0|1|0|", self.loadAND010)
+    self.AND111Button = self._makeButton([0.68, 0.29, 0.1, 0.055], "AND: |1|1|1|", self.loadAND111)
 
     self.fig.canvas.mpl_connect("button_press_event", self.onMousePress)
     self.fig.canvas.mpl_connect("button_release_event", self.onMouseRelease)
@@ -399,14 +510,35 @@ class GameOfLifeApp:
   def loadPulsar(self, _event):
     self.loadPreset("Pulsar")
 
-  def loadAND(self, _event):
-    self.loadPreset("AND")
+  def loadAND000(self, _event):
+    self.loadPreset("AND: |0|0|0|")  
+  
+  def loadAND100(self, _event):
+    self.loadPreset("AND: |1|0|0|")  
 
-  def loadOR(self, _event):
-    self.loadPreset("OR")
+  def loadAND010(self, _event):
+    self.loadPreset("AND: |0|1|0|")  
 
-  def loadNOT(self, _event):
-    self.loadPreset("NOT")
+  def loadAND111(self, _event):
+    self.loadPreset("AND: |1|1|1|")  
+
+  def loadOR000(self, _event):
+    self.loadPreset("OR: |0|0|0|")  
+  
+  def loadOR100(self, _event):
+    self.loadPreset("OR: |1|0|1|")  
+
+  def loadOR010(self, _event):
+    self.loadPreset("OR: |0|1|1|")  
+
+  def loadAOR111(self, _event):
+    self.loadPreset("OR: |1|1|1|")  
+
+  def loadNOT10(self, _event):
+    self.loadPreset("NOT: |0|1|")
+
+  def loadNOT01(self, _event):
+    self.loadPreset("NOT: |1|0|")
 
   def showRules(self, _event):
     if self.rulesFigure is not None and plt.fignum_exists(self.rulesFigure.number):
